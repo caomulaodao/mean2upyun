@@ -1,0 +1,42 @@
+{
+  "name": "mean2upyun",
+  "description": "update mean's packages'public file to upyun",
+  "version": "0.0.1",
+  "homepage": "https://github.com/caomulaodao/mean2upyun",
+  "author": {
+    "name": "la0da0",
+    "email": "dao@yiye.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/caomulaodao/mean2upyun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caomulaodao/mean2upyun/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/caomulaodao/mean2upyun/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-text-replace": "^0.3.12",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
